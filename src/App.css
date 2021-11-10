@@ -1,5 +1,6 @@
 .App {
   height: 100vh;
+  background-image: url("https://wallpaperaccess.com/full/2127718.jpg");
   background-color: #1a202c;
   overflow: scroll;
   text-align: center;
@@ -73,7 +74,8 @@
   width: 100%;
   bottom: 0;
   left: 0;
-  padding-bottom: 45px;
+  padding-bottom: 20px;
+  height: 60px;
 }
 
 .twitter-logo {
@@ -90,7 +92,7 @@
 .gif-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-  grid-gap: 1.5rem;
+  grid-gap: 1rem;
   justify-items: center;
   margin: 0;
   padding: 0;
@@ -102,6 +104,17 @@
   position: relative;
   justify-self: center;
   align-self: center;
+  transition-duration: .3s;
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #16151a;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.gif-grid .gif-item:hover {
+  top: -10px;
 }
 
 .gif-item img {
@@ -122,9 +135,70 @@
   background-color: rgba(0, 0, 0, 0.25);
   border: none;
   border-radius: 10px;
-  margin: 50px auto;
+  margin: 20px auto;
 }
 
 .connected-container button {
   height: 50px;
+}
+
+.connected-container {
+  padding:10px;
+  padding-bottom:60px;
+}
+
+.body-text {
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.me-btn{
+  position: relative;
+  width: 250px;
+  font-size: 16px;
+  color: #fff;
+  padding: 8px 16px;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  transition: all .4s ease-in-out;
+}
+
+.d-flex{
+  display: flex!important;
+}
+
+.justify-content-center {
+  justify-content: center!important;
+}
+
+.me-2 {
+  margin-right: 0.5rem!important;
+  background: #272238;
+}
+
+.me-btn.gradientBorder {
+  background: -webkit-linear-gradient(left,#7a00cc,#f72c87);
+  background-clip: padding-box!important;
+  border: solid 0.1em;
+  
+}
+
+.my-2 {
+  margin-top: 0.5rem!important;
+  margin-bottom: 0.5rem!important;
+}
+
+.submit-gif-button:hover {
+  background: white;
+  color: #35aee2;
+}
+
+.gradientBorder:hover {
+  background-clip: padding-box!important;
+  border: solid 0.1em;
+  background-image: linear-gradient(to left,#7a00cc,#f72c87);
+  border-radius: 10px;
 }
