@@ -2,7 +2,7 @@
 
 ### **Welcome**
 
-This app is deployed at the following address: https://stephenwilliams1990.github.io/seinfeld-on-solana/
+This App is deployed at the following address: https://stephenwilliams1990.github.io/seinfeld-on-solana/
 
 ## How to use 
 
