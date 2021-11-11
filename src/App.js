@@ -300,7 +300,7 @@ const App = () => {
     <div className="App">
       <div className={walletAddress ? 'authed-container' : 'container'}> 
         <div className="header-container">
-          <p className="header">🖼 Seinfeld GIF Portal</p>
+          <p className="header">Seinfeld GIF Portal</p>
           <p className="sub-text">
             Relive your favourite Seinfeld moments with this Seinfeld themed GIF collection in the metaverse ✨
           </p>
@@ -310,7 +310,7 @@ const App = () => {
         {walletAddress && renderConnectedContainer()}
         <div className="footer-container">
           <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
-          <div className="footer-text">
+          <span className="footer-text">
             {`Built by `}
             <a
               className="footer-text"
@@ -329,7 +329,9 @@ const App = () => {
             >
               _buildspace
             </a>
-          </div>
+          </span>
+          <a className="footer-text" href="https://solana.com/">Powered by Solana</a>
+          <img className="twitter-logo" src="https://pbs.twimg.com/profile_images/1428863362079854592/PjbUigJo_400x400.jpg" />
         </div>
       </div>
     </div>
