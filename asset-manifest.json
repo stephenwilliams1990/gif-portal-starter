@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/seinfeld-on-solana/static/css/main.0fc45a14.chunk.css",
-    "main.js": "/seinfeld-on-solana/static/js/main.12d3b362.chunk.js",
-    "main.js.map": "/seinfeld-on-solana/static/js/main.12d3b362.chunk.js.map",
+    "main.css": "/seinfeld-on-solana/static/css/main.62636290.chunk.css",
+    "main.js": "/seinfeld-on-solana/static/js/main.c70e5e4d.chunk.js",
+    "main.js.map": "/seinfeld-on-solana/static/js/main.c70e5e4d.chunk.js.map",
     "runtime-main.js": "/seinfeld-on-solana/static/js/runtime-main.6d51ded5.js",
     "runtime-main.js.map": "/seinfeld-on-solana/static/js/runtime-main.6d51ded5.js.map",
     "static/js/2.049c9f6d.chunk.js": "/seinfeld-on-solana/static/js/2.049c9f6d.chunk.js",
     "static/js/2.049c9f6d.chunk.js.map": "/seinfeld-on-solana/static/js/2.049c9f6d.chunk.js.map",
     "index.html": "/seinfeld-on-solana/index.html",
-    "static/css/main.0fc45a14.chunk.css.map": "/seinfeld-on-solana/static/css/main.0fc45a14.chunk.css.map",
+    "static/css/main.62636290.chunk.css.map": "/seinfeld-on-solana/static/css/main.62636290.chunk.css.map",
     "static/js/2.049c9f6d.chunk.js.LICENSE.txt": "/seinfeld-on-solana/static/js/2.049c9f6d.chunk.js.LICENSE.txt",
     "static/media/twitter-logo.svg": "/seinfeld-on-solana/static/media/twitter-logo.d89d9a86.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.6d51ded5.js",
     "static/js/2.049c9f6d.chunk.js",
-    "static/css/main.0fc45a14.chunk.css",
-    "static/js/main.12d3b362.chunk.js"
+    "static/css/main.62636290.chunk.css",
+    "static/js/main.c70e5e4d.chunk.js"
   ]
 }
