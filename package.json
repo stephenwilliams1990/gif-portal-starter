@@ -2,7 +2,7 @@
   "name": "buildspace-solana",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://stephenwilliams1990.github.io/gif-portal-starter",
+  "homepage": "https://stephenwilliams1990.github.io/seinfeld-on-solana",
   "dependencies": {
     "@project-serum/anchor": "^0.18.0",
     "@solana/web3.js": "^1.30.2",
@@ -21,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b main -d build"
   },
   "eslintConfig": {
     "extends": [
