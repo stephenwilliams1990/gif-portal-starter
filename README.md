@@ -1,16 +1,16 @@
-# buildspace Solana GIF Portal Project
+# Seinfeld on Solana GIF Portal Project
 
-### **Welcome 👋**
-To get started with this course, clone this repo and follow these commands:
+### **Welcome**
 
-1. Run `npm install` at the root of your directory
-2. Run `npm run start` to start the project
-3. Start coding!
+This app is deployed at the following address: https://stephenwilliams1990.github.io/seinfeld-on-solana/
 
-### **What is the .vscode Folder?**
-If you use VSCode to build your app, we included a list of suggested extensions that will help you build this project! Once you open this project in VSCode, you will see a popup asking if you want to download the recommended extensions :).
+## How to use 
 
+The app is deployed on Solana devnet, and you will need a Phantom Wallet in order to access and use the App. (Download your Phantom wallet here https://phantom.app/).
 
+## About the project
 
-### **Questions?**
-Have some questions make sure you head over to your [buildspace Dashboard](https://app.buildspace.so/courses/CObd6d35ce-3394-4bd8-977e-cbee82ae07a3) and link your Discord account so you can get access to helpful channels and your instructor!
+This project is a web3 dApp built on the Solana network. The premise of the App is quite simple; it is a portal for Seinfeld fans to share and vote for their favourite GIFs from funny moments from the series. However it demonstrates the power of building web3 apps. All the data on this app is stored on the Solana blockchain. The client side then reads this data from the blockchain to display on the App - no API needed. 
+
+The App also has some additional functionality showing what can be done on the Solana network with some basic programs (Solana's version of smart contracts). This allows users to vote for their favourite GIFs (like giving a like on social media) and even send a tip to the user that posted their favourite GIF if they wish. 
+
